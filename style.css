@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/474x/41/4a/34/414a34dd8d5ae4091a4804344b59d596.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+/* Header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255);
+    padding: 10px;
+    font-size: small;
+}
+
+.left-body {
+    flex-basis: 50%;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+.right-body {
+    margin: 0;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+
+
+
+
+nav {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    color: rgb(13, 12, 12);
+}
+
+
+
+
+
+/* Main content style */
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+
+/* Card style */
+.card {
+    flex: 0 0 calc(33.333% - 20px);
+    background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang transparan */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    background: none;
+    color: #dfdcea;
+    font-style: italic;
+}
+
+.card-2 {
+    flex: 0 0 calc(33.333% - 20px);
+    background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang transparan */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    background: none;
+    color: #dfdcea;
+    font-style: italic;
+    
+}
+
+.card-3 {
+    flex: 0 0 calc(33.333% - 20px);
+    background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang transparan */
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    background: none;
+    color: #dfdcea;
+    font-style: italic;
+}
+
+
+.card img {
+    width: 70%;
+    height: 65%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+
+}
+
+.card-2 img {
+    width: 80%;
+    height: 65%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    
+
+}
+
+.card-3 img {
+    width: 70%;
+    height: 65%;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+
+}
+
+.card-content {
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-content h3 {
+    margin: 0;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-height: 90vh;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    display: flex;
+    text-align: center;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+.carousel-slide img {
+    width: 500px;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#prevBtn {
+    right: 1000px;
+    color: #eeedf1;
+}
+
+#nextBtn {
+    left: 1000px;
+    color: #eeedf1;
+}
+
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
